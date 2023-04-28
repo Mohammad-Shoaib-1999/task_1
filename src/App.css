@@ -1,0 +1,30 @@
+/* styles.css */
+.app {
+  text-align: center;
+  /* background-color: black ; */
+  /* Add your styles for the App component */
+}
+
+.user-card {
+  background: #f1f1f1;
+  padding: 20px;
+  margin: 10px;
+  width: 500px;
+  display: inline-block;
+  box-sizing: border-box; /* Add this line */
+  border: 2px solid black;
+}
+
+
+.user-details {
+  background: #f1f1f1;
+  padding: 20px;
+  margin: auto;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+}
+
